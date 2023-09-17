@@ -1,0 +1,94 @@
+{
+  "company": [
+    {
+      "id": "1",
+      "logo": "sample-logo",
+      "name": "Company A",
+      "status": "Inactive"
+    },
+    {
+      "id": "2",
+      "logo": "sample-logo",
+      "name": "Company B",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "logo": "sample-logo",
+      "name": "Company C",
+      "status": "Inactive"
+    },
+    {
+      "id": "df86231b-2f30-4acc-8dbc-6af557bb80f9",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Warner_Bros._%282019%29_logo.svg/1200px-Warner_Bros._%282019%29_logo.svg.png",
+      "name": "Warner Brothers",
+      "status": "Active"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstname": "John",
+      "lastname": "Doe",
+      "type": "Writer",
+      "status": "Inactive"
+    },
+    {
+      "id": "2",
+      "firstname": "Sarah",
+      "lastname": "Doe",
+      "type": "Editor",
+      "status": "Active"
+    }
+  ],
+  "article": [
+    {
+      "id": "1",
+      "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "title": "Sample Title 12324",
+      "link": "https://www.google.com",
+      "date": "2023-09-16",
+      "content": "<p>Sample Content</p>",
+      "status": "Published",
+      "writer": "1",
+      "editor": "2",
+      "company": "2"
+    },
+    {
+      "id": "2",
+      "image": "https://www.rappler.com/tachyon/2023/09/rhenz-abando-august-31-2023.jpeg",
+      "title": "Gilas Pilipinas Wins over China!",
+      "link": "https://www.rappler.com/sports/gilas-pilipinas/philippines-fiba-world-ranking-september-2023/",
+      "date": "2023-09-16",
+      "content": "<p>ATIN ANG WEST PHILIPPINE SEA!</p>",
+      "status": "For Edit",
+      "writer": "1",
+      "editor": "2",
+      "company": "2"
+    },
+    {
+      "id": "3",
+      "image": "https://i.pinimg.com/280x280_RS/c6/7a/c1/c67ac1a235895869ee92e9cc5d77430c.jpg",
+      "title": "Sample Title 3",
+      "link": "https://www.facebook.com/",
+      "date": "2023-09-17",
+      "content": "<p>Sample Content</p>",
+      "status": "For Edit",
+      "writer": "1",
+      "editor": "2",
+      "company": "3"
+    },
+    {
+      "id": "891bb72e-1f15-4efd-8a14-aac643b82df2",
+      "image": "https://static.designboom.com/wp-content/uploads/2023/05/warner-bros-new-logo-designboom-01.jpg",
+      "title": "Warner Bros. Article",
+      "link": "https://www.youtube.com/",
+      "date": "2023-09-15",
+      "content": "<p>asdasd</p>",
+      "status": "For Edit",
+      "writer": "1",
+      "editor": "2",
+      "company": "df86231b-2f30-4acc-8dbc-6af557bb80f9"
+    }
+  ]
+}
